@@ -1,0 +1,61 @@
+body{
+text-align: center;
+margin: 0;
+}
+
+.top-container{
+  background-color: #0F3460;
+}
+
+.responsive {
+  width: 40%;
+  height:100%;
+}
+
+.First{
+  background-color:#16213E ;
+  padding: 3% 7%;
+}
+
+#navbar{
+  list-style: none;
+  display: flex;
+  padding-top: 0px;
+  padding-left: 10%;
+  margin-top: 0;
+  overflow: hidden;
+  position: sticky;
+  position: -webkit-sticky; /this is for safari/
+  top: 0;
+}
+.list-item{
+  padding: 15px 40px;
+
+}
+.list-item a{
+  text-decoration: underline;
+  color: black;
+  font-size:15px;
+ position: relative;
+}
+
+ /* .list-item:hover{
+  background-color:#f2d388;
+} */
+
+.btn1{
+  border-radius: 40%;
+  background-color: yellow;
+  margin-right: 18px;
+}
+
+.btn{
+  border-radius: 40%;
+  background-color: yellow;
+  margin-right: 40px;
+}
+
+
+.carousel-item{
+  height: 500px;
+}
