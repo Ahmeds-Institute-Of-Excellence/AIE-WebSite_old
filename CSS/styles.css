@@ -1,23 +1,26 @@
-body{
-text-align: center;
-margin: 0;
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
 }
 
-.top-container{
+.top-container {
   background-color: #0F3460;
 }
 
 .responsive {
   width: 40%;
-  height:100%;
+  height: 100%;
 }
 
-.First{
-  background-color:#16213E ;
+.First {
+  background-color: #16213E;
   padding: 3% 7%;
 }
 
-#navbar{
+#navbar {
   list-style: none;
   display: flex;
   padding-top: 0px;
@@ -25,37 +28,47 @@ margin: 0;
   margin-top: 0;
   overflow: hidden;
   position: sticky;
-  position: -webkit-sticky; /this is for safari/
-  top: 0;
+  position: -webkit-sticky;/this is for safari/ top: 0;
 }
-.list-item{
-  padding: 15px 40px;
 
+.list-item {
+  padding: 15px 40px;
 }
-.list-item a{
+
+.list-item a {
   text-decoration: underline;
   color: black;
-  font-size:15px;
- position: relative;
+  font-size: 15px;
+  position: relative;
 }
 
- /* .list-item:hover{
-  background-color:#f2d388;
-} */
-
-.btn1{
+.btn1 {
   border-radius: 40%;
   background-color: yellow;
   margin-right: 18px;
 }
 
-.btn{
+.btn {
   border-radius: 40%;
   background-color: yellow;
   margin-right: 40px;
 }
 
+.wrapper {
+color: white;
+  margin: 0 auto;
+  width: 100%;
+}
 
-.carousel-item{
-  height: 500px;
+.carousel-item img {
+  width: 100%;
+  height: 300px;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
