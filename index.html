@@ -4,63 +4,82 @@
 <head>
   <meta charset="utf-8">
   <title>Ahmed's Institute Of Excellence</title>
+  <!-- bootstrap link -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- CSS Stylesheet -->
   <link rel="stylesheet" href="CSS\styles.css">
+
   <link rel="icon" href="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-
+  <!-- AIE logo -->
   <div class="top-container">
     <img class="responsive" src="Images\AIE-logo.png" alt="title">
-
     <marquee width="100%" direction="left" height="30%" bgcolor="#7FBCD2">
-    <h3><strong>“Institute Known For Its Excellence”</strong></h3>
+      <h3><strong>“Institute Known For Its Excellence”</strong></h3>
     </marquee>
-
   </div>
 
-
+  <!-- navigation-Bar -->
   <div class="First">
-<div class="row">
+      <ul id="navbar">
+        <button class="btn">
+          <li class="list-item"><a href="">Our Mission</a></li>
+        </button>
+        <button class="btn1">
+          <li class="list-item"><a href="">About Us</a></li>
+        </button>
+        <button class="btn1">
+          <li class="list-item"><a href="">What We Offer</a></li>
+        </button>
+        <button class="btn1">
+          <li class="list-item"><a href="">Our Team</a></li>
+        </button>
+        <button class="btn1">
+          <li class="list-item"><a href="">Our Impact</a></li>
+        </button>
+        <button class="btn1">
+          <li class="list-item"><a href="">Contact Us</a></li>
+        </button>
+      </ul>
+  </div>
 
-    <ul id="navbar">
-      <div class="col-lg-6">
-      <button class="btn">
-        <li class="list-item"><a href="">Our Mission</a></li>
-      </button>
-      <button class="btn1">
-        <li class="list-item"><a href="">About Us</a></li>
-      </button>
-      <button class="btn1">
-        <li class="list-item"><a href="">What We Offer</a></li>
-      </button>
-      <button class="btn1">
-        <li class="list-item"><a href="">Our Team</a></li>
-      </button>
-      <button class="btn1">
-        <li class="list-item"><a href="">Our Impact</a></li>
-      </button>
-      <button class="btn1">
-        <li class="list-item"><a href="">Contact Us</a></li>
-      </button>
+  <!-- carousel slides images -->
+  <div class="wrapper">
+    <div id="carousel-slider" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2000">
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-slider" data-slide-to="1"></li>
+        <!-- <li data-target="#carousel-slider" data-slide-to="2"></li> -->
+      </ol>
+      <!--Indicators-->
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+        <!--First slide-->
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="Images\1.png" alt="First slide">
+        </div>
+        <!--/First slide-->
+        <!--second slide-->
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Images\2.png" alt="second slide">
+          <div class="centered"><h1>Best Institute For Engineering/Diploma,ect.</h1></div>
+        </div>
+        <!--/second slide-->
       </div>
-    </ul>
     </div>
   </div>
-
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="Images\1.png" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="Images\2.png" alt="Second slide">
-    </div>
-  </div>
-</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <!-- carousel slides images -->
 
 
 </body>
 
 </html>
+
