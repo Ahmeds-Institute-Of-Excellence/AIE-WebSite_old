@@ -40,31 +40,27 @@ color: white;
 
 #third{
   background-color: black;
-  color: white;
-  padding-left: 300px;
+   /* color: white; */
+  padding-left: 0;
   padding-right: 300px;
   padding-top: 3%;
   padding-bottom: 3%;
   text-align:justify;
   font-size:25px;
-
 }
+
+.ourM-h3{
+  padding-left:150px;
+  font-size: 40px;
+}
+
 .para{
+  background-color:inherit;
   margin-bottom: 0px;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-top: 50px;
   padding-bottom: 20px;
-}
-
-#About-us{
-  background-color:#5F6F94;
-  color:white;
-
-}
-
-.btn-o{
-  border-radius: 40%;
-  background-color: yellow;
-  margin-right: 40px;
-  text-decoration: underline;
-
+  position:absolute;
+  color: white;
 }
