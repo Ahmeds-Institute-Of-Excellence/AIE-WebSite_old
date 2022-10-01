@@ -5,11 +5,19 @@
   <meta charset="utf-8">
   <title>Ahmed's Institute Of Excellence</title>
   <!-- bootstrap link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- bootstrap scripts -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   <!-- CSS Stylesheet -->
   <link rel="stylesheet" href="styles.css">
 
+  <!-- favicon -->
   <link rel="icon" href="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -18,70 +26,73 @@
   <!-- AIE logo -->
   <div id="top-container">
     <img class="responsive" src="AIE images/AIE-logo.png" alt="title">
-    <marquee width="100%" direction="left" height="30%" bgcolor="#7FBCD2" onmouseover="this.stop()" onmouseout="this.start()">
+    <marquee width="100%" direction="left" height="30%" bgcolor="#F0F5F9" onmouseover="this.stop()" onmouseout="this.start()">
       <h3><strong>“Institute Known For Its Excellence”</strong></h3>
     </marquee>
 
-<!-- navigation bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Home</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-link active" href="#"><span class="sr-only">(current)</span></a>
-      <a class="nav-link" href="#third">Our Mission</a>
-      <a class="nav-link" href="#">About Us</a>
-      <a class="nav-link">What We Offer</a>
-      <a class="nav-link ">Our Team</a>
-      <a class="nav-link">Our Impact</a>
-      <a class="nav-link">Contact Us</a>
-    </div>
-  </div>
-</nav>
-
-
-
-  <!-- carousel slides images -->
-  <div class="wrapper">
-    <div id="carousel-slider" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2000">
-      <!--Indicators-->
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-slider" data-slide-to="1"></li>
-        <!-- <li data-target="#carousel-slider" data-slide-to="2"></li> -->
-      </ol>
-      <!--Indicators-->
-      <!--Slides-->
-      <div class="carousel-inner" role="listbox">
-        <!--First slide-->
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="AIE images\1.jpeg" alt="First slide">
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="#"><span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#third">Our Mission</a>
+          <a class="nav-link" href="about-us.html">About Us</a>
+          <a class="nav-link">What We Offer</a>
+          <a class="nav-link ">Our Team</a>
+          <a class="nav-link">Our Impact</a>
+          <a class="nav-link">Contact Us</a>
         </div>
-        <!--/First slide-->
-        <!--second slide-->
-        <div class="carousel-item">
-          <img class="d-block w-100" src="AIE images\2.jpeg" alt="second slide">
-          <div class="centered"><h1>Best Institute For Engineering/Diploma,ect.</h1></div>
+      </div>
+    </nav>
+
+    <!-- carousel slides images -->
+    <div class="wrapper">
+      <div id="carousel-slider" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2000">
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-slider" data-slide-to="1"></li>
+          <!-- <li data-target="#carousel-slider" data-slide-to="2"></li> -->
+        </ol>
+        <!--Indicators-->
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+          <!--First slide-->
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="AIE images\1.jpeg" alt="First slide">
+          </div>
+          <!--/First slide-->
+          <!--second slide-->
+          <div class="carousel-item">
+            <img class="d-block w-100" src="AIE images\2.jpeg" alt="second slide">
+            <div class="centered">
+              <h1>Best Institute For Engineering/Diploma,ect.</h1>
+            </div>
+          </div>
+          <!--/second slide-->
         </div>
-        <!--/second slide-->
       </div>
     </div>
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-  <!-- carousel slides images -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <!-- carousel slides images -->
 
-  <div id="third">
-  <a href="#top-container"><h3 class="ourM-h3">Our Mission</h3></a>
-    <p class="para" >
-      The AIE mission is to globalize and democratize higher education in the field of Inter, Diploma and Engineering by reaching the doorsteps of the learners. The AIE is committed to provide quality education across the globe through distance learning by equipping the students with the latest global developments. Our self study approach involves online technology through downloadable tools and self study material which is cost effective and beneficial for the working professionals/ entrepreneurs, who wish to seek higher education but cannot afford full time management programs due to financial or any other constraints.
-    </p>
-  </div>
-
-
+    <div id="third">
+      <a href="#top-container">
+        <h3 class="ourM-h3">Our Mission</h3>
+      </a>
+      <p class="para">
+        The AIE mission is to globalize and democratize higher education in the field of Inter, Diploma and Engineering by reaching the doorsteps of the learners. The AIE is committed to provide quality education across the globe through distance
+        learning by equipping the students with the latest global developments. Our self study approach involves online technology through downloadable tools and self study material which is cost effective and beneficial for the working
+        professionals/ entrepreneurs, who wish to seek higher education but cannot afford full time management programs due to financial or any other constraints.
+      </p>
+    </div>
 
 </body>
+
 </html>
