@@ -2,12 +2,13 @@ body {
   text-align: center;
   margin: 0;
   padding: 0px;
-  width: 100%;;
+  width: 100%;
+  ;
   height: 100%;
 }
 
 #top-container {
-  background-color:black;
+  background-color: #1E2022;
 }
 
 .responsive {
@@ -15,12 +16,12 @@ body {
   height: 100%;
 }
 
-.navbar{
+.navbar {
   padding-right: 30px;
 }
 
 .wrapper {
-color: white;
+  color: white;
   margin: 0 auto;
   width: 100%;
 }
@@ -30,7 +31,6 @@ color: white;
   height: 500px;
 }
 
-
 .centered {
   position: absolute;
   top: 50%;
@@ -38,29 +38,59 @@ color: white;
   transform: translate(-50%, -50%);
 }
 
-#third{
-  background-color: black;
-   /* color: white; */
+#third {
+  background-color: #52616B;
   padding-left: 0;
   padding-right: 300px;
   padding-top: 3%;
   padding-bottom: 3%;
-  text-align:justify;
-  font-size:25px;
+  text-align: justify;
+  font-size: 25px;
 }
 
-.ourM-h3{
-  padding-left:150px;
+.ourM-h3 {
+  padding-left: 150px;
   font-size: 40px;
+  color: #F0F5F9;
 }
 
-.para{
-  background-color:inherit;
+.para {
+  background-color: inherit;
   margin-bottom: 0px;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 50px;
   padding-bottom: 20px;
-  position:absolute;
+  position: absolute;
   color: white;
+}
+
+/* About-us section */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* title section */
+#title {
+  text-align: justify;
+  background-color: #C9D6DF;
+}
+
+/* title-image */
+.title-img {
+  width: 100%;
+  position: relative;
+}
+
+.about-us {
+  padding-right: 10%;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.abu-h3 {
+  text-align: center;
+  padding-bottom: 5%;
+  font-size: 40px;
+  color: #F0F5F9;
 }
