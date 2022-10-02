@@ -65,9 +65,8 @@ body {
   color: white;
 }
 
-/* About-us section */
 .container-fluid {
-  padding: 7% 15%;
+  padding: 3% 7%;
 }
 
 /* title section */
@@ -83,7 +82,6 @@ body {
 }
 
 .about-us {
-  padding-right: 10%;
   font-size: 1.5rem;
   line-height: 1.5;
 }
