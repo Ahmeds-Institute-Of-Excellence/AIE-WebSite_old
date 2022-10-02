@@ -65,6 +65,7 @@ body {
   color: white;
 }
 
+/* About-us section */
 .container-fluid {
   padding: 3% 7%;
 }
@@ -91,4 +92,51 @@ body {
   padding-bottom: 5%;
   font-size: 40px;
   color: #F0F5F9;
+}
+
+/* gallery section */
+.container-fluid {
+  padding: 3% 7%;
+}
+
+.colored-section {
+  background-color: #C9D6DF;
+}
+
+#gallery {
+  position: relative;
+  z-index: 1;
+}
+
+.img-box {
+  padding: 3% 2%;
+  position: relative;
+  width: 100%;
+  /* max-width: 300px; */
+}
+
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: relative;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.img-box:hover .overlay {
+  opacity: 1;
 }
