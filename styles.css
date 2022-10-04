@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0px;
   width: 100%;
-  ;
   height: 100%;
 }
 
@@ -48,17 +47,18 @@ body {
   font-size: 25px;
 }
 
-.ourM-h3 {
-  padding-left: 150px;
-  font-size: 40px;
+ .ourM-h3 {
+text-align:center;
+/* font-size: 30px; */
   color: #F0F5F9;
 }
+
 
 .para {
   background-color: inherit;
   margin-bottom: 0px;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 8%;
+  padding-right: 8%;
   padding-top: 50px;
   padding-bottom: 20px;
   position: absolute;
@@ -90,7 +90,7 @@ body {
 .abu-h3 {
   text-align: center;
   padding-bottom: 5%;
-  font-size: 40px;
+  font-size: 30px;
   color: #F0F5F9;
 }
 
@@ -139,4 +139,34 @@ body {
 
 .img-box:hover .overlay {
   opacity: 1;
+}
+/* WHAT WE OFFER SECTION */
+.offers{
+  background-color:#C9D6DF;
+  padding-top: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.off-h3{
+  color:  #F0F5F9;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.ofr-gallery{
+  /* border: 1px solid #ccc; */
+  margin: 5px;
+  float: left;
+  padding: 3% 2%;
+  position: relative;
+  width:30%;
+}
+
+.img1 {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-left: 10px;
 }
