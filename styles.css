@@ -170,3 +170,13 @@ text-align:center;
   height: auto;
   padding-left: 10px;
 }
+
+#team{
+  text-align: justify;
+  background-color: #C9D6DF;
+}
+
+.intro{
+  text-align: center;
+}
+
