@@ -6,8 +6,19 @@ body {
   height: 100%;
 }
 
+h1 {
+  text-align: center;
+  padding-bottom: 5%;
+  font-size: 30px;
+  color: #181818;
+}
+p{
+  color:#16213E;
+}
+
 #top-container {
-  background-color: #1E2022;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
 .responsive {
@@ -37,32 +48,15 @@ body {
   transform: translate(-50%, -50%);
 }
 
-#third {
-  background-color: #52616B;
-  padding-left: 0;
-  padding-right: 300px;
-  padding-top: 3%;
-  padding-bottom: 3%;
+#Mission{
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+}
+
+.our-mission {
   text-align: justify;
-  font-size: 25px;
-}
-
- .ourM-h3 {
-text-align:center;
-/* font-size: 30px; */
-  color: #F0F5F9;
-}
-
-
-.para {
-  background-color: inherit;
-  margin-bottom: 0px;
-  padding-left: 8%;
-  padding-right: 8%;
-  padding-top: 50px;
-  padding-bottom: 20px;
-  position: absolute;
-  color: white;
+  font-size: 1.3rem;
 }
 
 /* About-us section */
@@ -72,26 +66,20 @@ text-align:center;
 
 /* title section */
 #title {
-  text-align: justify;
-  background-color: #C9D6DF;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }
 
 /* title-image */
 .title-img {
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
   width: 100%;
   position: relative;
 }
 
 .about-us {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-.abu-h3 {
-  text-align: center;
-  padding-bottom: 5%;
-  font-size: 30px;
-  color: #F0F5F9;
+  text-align: justify;
+  font-size: 1.3rem;
 }
 
 /* gallery section */
@@ -99,11 +87,8 @@ text-align:center;
   padding: 3% 7%;
 }
 
-.colored-section {
-  background-color: #C9D6DF;
-}
-
 #gallery {
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
   position: relative;
   z-index: 1;
 }
@@ -140,28 +125,10 @@ text-align:center;
 .img-box:hover .overlay {
   opacity: 1;
 }
+
 /* WHAT WE OFFER SECTION */
-.offers{
-  background-color:#C9D6DF;
-  padding-top: 10px;
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-.off-h3{
-  color:  #F0F5F9;
-  text-align: center;
-  font-size: 30px;
-  padding-top: 20px;
-}
-
-.ofr-gallery{
-  /* border: 1px solid #ccc; */
-  margin: 5px;
-  float: left;
-  padding: 3% 2%;
-  position: relative;
-  width:30%;
+.colored-section {
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
 }
 
 .img1 {
@@ -171,12 +138,36 @@ text-align:center;
   padding-left: 10px;
 }
 
-#team{
+#team {
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
   text-align: justify;
-  background-color: #C9D6DF;
 }
 
-.intro{
+.intro {
   text-align: center;
 }
 
+.impact {
+  background: rgb(238,174,202);
+  background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
+  text-align: center;
+  font-size: 25px;
+}
+
+
+/* Testimonials section */
+#testimonials {
+  background: #005AA7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
