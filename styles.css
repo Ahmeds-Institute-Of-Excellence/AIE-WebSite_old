@@ -19,6 +19,19 @@ p {
   color: #16213E;
 }
 
+.blink {
+  animation: blinker 1.5s linear infinite;
+  color: black;
+  font-family: sans-serif;
+  font-size: .7rem;
+}
+
+@keyframes blinker {
+  80% {
+    opacity: 0;
+  }
+}
+
 #top-container {
   background-color: #4158D0;
   background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
