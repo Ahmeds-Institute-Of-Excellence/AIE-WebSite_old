@@ -160,15 +160,15 @@ p {
 }
 
 #row1{
-  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 
 #row2{
-    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+   background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 }
 
 #row3{
-  background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 }
 
 #team {
