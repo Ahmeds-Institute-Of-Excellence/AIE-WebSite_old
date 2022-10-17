@@ -194,6 +194,10 @@ p {
   font-size: 25px;
 }
 
+.bt{
+  padding-bottom:5%;
+}
+
 /* Testimonials section */
 #testimonials {
   background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
