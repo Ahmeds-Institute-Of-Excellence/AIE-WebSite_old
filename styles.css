@@ -159,6 +159,18 @@ p {
   padding-left: 10px;
 }
 
+#row1{
+  background-color: green;
+}
+
+#row2{
+    background: blue;
+}
+
+#row3{
+  background: grey;
+}
+
 #team {
   background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
   text-align: justify;
