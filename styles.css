@@ -78,8 +78,7 @@ p {
 }
 
 #Mission {
-  background-color: #FBAB7E;
-  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+ background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
 }
 
 .our-mission {
@@ -189,14 +188,14 @@ p {
 }
 
 .impact {
-  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+ background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
   text-align: center;
   font-size: 25px;
 }
 
 /* Testimonials section */
 #testimonials {
-  background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+ background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
   padding: 7% 15%;
 }
 
