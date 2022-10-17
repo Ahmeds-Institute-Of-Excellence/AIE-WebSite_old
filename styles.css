@@ -160,15 +160,15 @@ p {
 }
 
 #row1{
-  background-color: green;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
 }
 
 #row2{
-    background: blue;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
 #row3{
-  background: grey;
+  background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
 }
 
 #team {
