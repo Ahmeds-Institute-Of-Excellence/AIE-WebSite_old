@@ -52,7 +52,7 @@ p {
 }
 
 .wrapper {
-  color: white;
+  background-image: linear-gradient(to top, #fef9d7  0%, #d299c2 100%);
   margin: 0 auto;
   width: 100%;
 }
@@ -68,6 +68,17 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* index sliding images */
+
+.slider{
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 
 #Mission {
   background-color: #FBAB7E;
