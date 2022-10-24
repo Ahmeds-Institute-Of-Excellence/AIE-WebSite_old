@@ -4,15 +4,15 @@
 <head>
   <meta charset="utf-8">
   <title>Ahmed's Institute Of Excellence</title>
-  
-    <!-- google fonts -->
+
+  <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
   <!-- bootstrap link -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  
+
   <!-- javascript link -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://kit.fontawesome.com/4ca78f46c8.js" crossorigin="anonymous"></script>
@@ -25,111 +25,153 @@
   <link rel="stylesheet" href="styles.css">
 
   <!-- favicon -->
- <link rel="icon" href="AIE images/favicon1.svg">
+  <link rel="icon" href="AIE images/favicon1.svg">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
- <div id="top-container">
+  <!-- AIE logo -->
+  <div id="top-container">
     <img class="responsive" src="AIE images/AIE-logo.png" alt="title">
-      <div class="bilnker">
-      <a class="btn btn-light blink btn-lg" href="https://play.google.com/store/apps/details?id=co.sheldon.rcrfw" role="button"><i class="fa-brands fa-google-play"></i>   Download Our App</a>
-        <a class="btn btn-light blink btn-lg" href="https://apps.apple.com/in/app/myinstitute/id1472483563" role="button"><i class="fa-brands fa-apple"></i>   Download Our App</a>
+    <div class="bilnker">
+      <a class="btn btn-light blink btn-lg" href="https://play.google.com/store/apps/details?id=co.sheldon.rcrfw" role="button"><i class="fa-brands fa-google-play"></i> Download Our App</a>
+      <a class="btn btn-light blink btn-lg" href="https://apps.apple.com/in/app/myinstitute/id1472483563" role="button"><i class="fa-brands fa-apple"></i> Download Our App</a>
     </div>
   </div>
 
   <marquee width="100%" direction="left" height="30%" bgcolor="#ffffff" onmouseover="this.stop()" onmouseout="this.start()">
-    <h4><strong>“Remove Stress View Our Gallery”</strong></h4>
+    <h4><strong>“We Are Offering Engineering/Diploma Tuition, Industrial Training, Ecet/Polycet, Polytechnic/Intermediate/SSC/CBSE/ICSE Coaching”</strong></h4>
   </marquee>
-  
-    <!-- navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">AIE</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
-          <a class="nav-link" href="about-us.html">About Us</a>
-          <a class="nav-link" href="what-we-offer.html">What We Offer</a>
-          <a class="nav-link" href="our-team.html">Our Team</a>
-          <a class="nav-link" href="contact-us.html">Contact Us</a>
-        </div>
+
+  <!-- navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand px-3" href="#">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav text-align-center">
+        <a class="nav-link active" href="#"><span class="sr-only"></span></a>
+        <a class="nav-link" href="about-us.html">About Us</a>
+        <a class="nav-link" href="gallery.html">Gallery</a>
+        <a class="nav-link" href="what-we-offer.html">What We Offer</a>
+        <a class="nav-link" href="our-team.html">Our Team</a>
+        <a class="nav-link" href="contact-us.html">Contact Us</a>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <section class="colored-section" id="gallery">
+  <h1>Gallery</h1>
+  <style media="screen">
+    header {
+      max-width: 1024px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      overflow: hidden;
+    }
 
-      <div class="container-fluid">
+    .row {
+      display: flex;
+      overflow: hidden;
+    }
 
-         <a href="">
-      <h1>Gallery</h1>
-       </a>
+    .imagegroup {
+      display: flex;
+      width: 100%;
+    }
 
-        <div class="row">
+    .imagegroup img {
+      flex-shrink: 0;
+      object-fit: cover;
+      border: 3px solid white;
+      width:500px;
+      height:300px;
+    }
 
-          <div class="img-box col-lg-4 col-md-6">
-            <img class="img" src="AIE images\aie.svg" alt="">
-          </div>
+    .imagegroup {
+      animation: travel 20s ease-in-out infinite;
+    }
 
-          <div class=" img-box col-lg-4 col-md-6">
-            <img class="img" src="AIE images\5.svg" alt="">
-            <div class="overlay">Office Room</div>
-          </div>
+    @keyframes travel {
 
-          <div class="img-box  col-lg-4 col-md-6">
-            <img class="img" src="AIE images\6.svg" alt="">
-            <div class="overlay">Wating Area</div>
-          </div>
+      0%,
+      100% {
+        transform: translate3d(0, 0, 0);
+      }
 
-          <div class="img-box  col-lg-4 col-md-6">
-            <img class="img" src="AIE images\7.svg" alt="">
-            <div class="overlay">Spacious Class Room</div>
-          </div>
+      50% {
+        transform: translate3d(-100%, 0, 0);
+      }
+    }
+  </style>
 
-          <div class="img-box  col-lg-4 col-md-6">
-            <img class="img" src="AIE images\8.svg" alt="">
-            <div class="overlay">Spacious Class Room</div>
-          </div>
+  <header>
 
-          <div class="img-box  col-lg-4 col-md-6">
-            <img class="img" src="AIE images\9.svg" alt="">
-            <div class="overlay">Regular Test</div>
-          </div>
-
-          <div class="img-box  col-lg-4 col-md-6">
-            <img class="img" src="AIE images\10.svg" alt="">
-            <div class="overlay">Regular Test</div>
-          </div>
-
-          <div class="img-box  col-lg-4 col-md-6">
-            <img class="img" src="AIE images\11.svg" alt="">
-            <div class="overlay">Practical Training</div>
-          </div>
-
-          <div class="img-box  col-lg-4 col-md-6">
-            <img class="img" src="AIE images\12.svg" alt="">
-            <div class="overlay">Practical Training</div>
-          </div>
-
-          <div class="img-box  col-lg-4 col-md-6">
-            <img class="img" src="AIE images\13.svg" alt="">
-            <div class="overlay">Practice Classes</div>
-          </div>
-
-          <div class="img-box  col-lg-4 col-md-6">
-            <img class="img" src="AIE images\14.svg" alt="">
-            <div class="overlay">Practice Classes</div>
-          </div>
-
-        </div>
+    <div class="row small">
+      <div class="imagegroup" style="animation-delay: 1s;">
+        <img src="images/1.jpg" alt="">
+        <img src="images/2.jpg" alt="">
+        <img src="images/3.jpg" alt="">
+        <img src="images/4.jpg" alt="">
       </div>
+    </div>
 
-    </section>
 
-    <section id="footer">
+    <div class="row large">
+      <div class="imagegroup" style="border:2px solid white">
+        <img src="images/17.jpg" alt="">
+        <img src="images/18.jpg" alt="">
+        <img src="images/19.jpg" alt="">
+        <img src="images/20.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="imagegroup" style="animation-delay: 1s;">
+
+      <img src="images/5.jpg" alt="">
+      <img src="images/6.jpg" alt="">
+      <img src="images/7.jpg" alt="">
+      <img src="images/8.jpg" alt="">
+
+      <img src="images/11.jpg" alt="">
+      <img src="images/12.jpg" alt="">
+      <img src="images/13.jpg" alt="">
+      <img src="images/14.jpg" alt="">
+      <img src="images/15.jpg" alt="">
+      <img src="images/16.jpg" alt="">
+    </div>
+
+
+    <div class="row large">
+      <div class="imagegroup" style="border:2px solid white">
+        <img src="images/9.jpg" alt="">
+        <img src="images/10.jpg" alt="">
+        <img src="images/21.jpg" alt="">
+        <img src="images/22.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="imagegroup" style="animation-delay: 1s;">
+
+      <img src="images/11.jpg" alt="">
+      <img src="images/12.jpg" alt="">
+      <img src="images/13.jpg" alt="">
+      <img src="images/14.jpg" alt="">
+    </div>
+
+    <div class="row large">
+      <div class="imagegroup" style="border:2px solid white">
+        <img src="images/15.jpg" alt="">
+        <img src="images/16.jpg" alt="">
+      </div>
+    </div>
+
+
+  </header>
+
+  <section id="footer">
 
     <div class="container-fluid">
       <footer class="py-5">
@@ -178,67 +220,37 @@
 
           <!-- ICONS -->
           <footer class=" text-center text-white">
-    <!-- Grid container -->
-    <div class="container p-4 pb-0">
-      <!-- Section: Social media -->
-      <section class="mb-4">
-        
-        <!-- youtube -->
-        <a
-           class="btn btn-primary btn-floating m-1"
-           style="background-color: #FF0000;"
-           href="https://youtube.com/channel/UCOrx8sv1sNK7YTd_9KWb43w"
-           role="button"
-           ><i class="fa-brands fa-youtube"></i>
-          </a>
-        
-        
-          <!-- WhatsApp -->
-        <a
-           class="btn btn-primary btn-floating m-1"
-           style="background-color:#25D366;"
-           href="https://wa.me/+918142625611"
-           role="button"
-           ><i class="fa-brands fa-whatsapp"></i></a>
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+              <!-- Section: Social media -->
+              <section class="mb-4">
 
-        <!-- Facebook -->
-        <a
-           class="btn btn-primary btn-floating m-1"
-           style="background-color: #3b5998;"
-           href="#!"
-           role="button"
-           ><i class="fab fa-facebook-f"></i
-          ></a>
+                <!-- youtube -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #FF0000;" href="#!" role="button"><i class="fa-brands fa-youtube"></i>
+                </a>
 
-        <!-- Twitter -->
-        <a
-           class="btn btn-primary btn-floating m-1"
-           style="background-color: #55acee;"
-           href="#!"
-           role="button"
-           ><i class="fab fa-twitter"></i
-          ></a>
 
-        <!-- Instagram -->
-        <a
-           class="btn btn-primary btn-floating m-1"
-           style="background: rgb(131,58,180);
+                <!-- WhatsApp -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color:#25D366;" href="https://wa.me/8142625611" role="button"><i class="fa-brands fa-whatsapp"></i></a>
+
+                <!-- Facebook -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-primary btn-floating m-1" style="background: rgb(131,58,180);
 background: -moz-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#fcb045",GradientType=1);"
-           href="#!"
-           role="button"
-           ><i class="fab fa-instagram"></i
-          ></a>
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=" #833ab4",endColorstr="#fcb045" ,GradientType=1);" href="#!" role="button"><i class="fab fa-instagram"></i></a>
 
-
-      </section>
-      <!-- Section: Social media -->
-    </div>
+              </section>
+              <!-- Section: Social media -->
+            </div>
         </div>
       </footer>
-          </footer>
 
     </div>
 
