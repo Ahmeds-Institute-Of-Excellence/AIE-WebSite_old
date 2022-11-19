@@ -180,6 +180,11 @@ p {
   background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 }
 
+#row4{
+  background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+
 #team {
   background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
   text-align: justify;
