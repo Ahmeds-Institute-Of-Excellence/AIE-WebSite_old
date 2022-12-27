@@ -48,7 +48,7 @@ p {
 }
 
 #notify{
-  position: relative;
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,6 +57,7 @@ p {
   border: none;
   outline: none;
   border-radius: 50%;
+   padding-bottom: 5%;
 }
 
 
