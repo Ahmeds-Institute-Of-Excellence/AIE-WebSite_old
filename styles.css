@@ -47,6 +47,20 @@ p {
   height: 100%;
 }
 
+#notify{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+}
+
+
+
 .navbar {
   padding-right: 30px;
 }
