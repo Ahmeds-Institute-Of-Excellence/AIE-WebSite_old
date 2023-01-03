@@ -346,4 +346,4 @@ background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 
 .dropdown:hover .dropdown-content {display:inline;}
 
-.dropdown:hover .dropbtn {background-color:grey;}
+.dropdown:hover .dropbtn {background-color:#fff;}
